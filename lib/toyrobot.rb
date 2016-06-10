@@ -1,0 +1,13 @@
+$LOAD_PATH << File.join(File.dirname(__FILE__))
+require 'optparse'
+require 'logger'
+require 'toyrobot/version'
+require 'toyrobot/logger'
+require 'toyrobot/command_parser'
+require 'toyrobot/table'
+require 'toyrobot/position'
+require 'toyrobot/robot'
+require 'toyrobot/direction'
+require 'toyrobot/simulator'
+require 'toyrobot/app'
+require 'toyrobot/cli'
